@@ -1,0 +1,17 @@
+package ambiguity;
+
+public class ClassC implements Inter1, Inter2, Inter3 {
+
+	@Override
+	public void printText() {
+		Inter1.super.printText();
+	}
+
+	
+	
+	
+	
+	
+	
+	
+}
